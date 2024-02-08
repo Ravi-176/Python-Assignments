@@ -1,0 +1,11 @@
+#Difference between '=' and '==' operator in Python
+1.'=' operator is called assignment operator.Hence,it is used to assign values/literals to
+   the variables.Examples:a=10,b=20,str="Somesh",etc.
+   On the other hand,'==' is used for comparing two values and it returns true or false based
+   on whether they are equal or not.Example:a=5,b=10 ,then a==b will return false.
+#'**' operator in Python and how it is used
+2.'**' is the exponentiation operator in python.Hence,it raises a number(base) to a particular
+   power(index).Examples:2**3 which implies 2*2*2=8.a**=3 which implies a*a*a.
+#Use of '^' operator in Python and context in which it is used
+3.'^' is the XOR operator in Python.It returns 0 if both operands are same(either both 0 or non-zero/unity)
+  Otherwise it returns 1.Examples:0^0=0,1^1=0,0^1=1,1^0=0.
