@@ -9,15 +9,15 @@ if ip==1:
 elif ip==2:
     n1 = int(input("Enter first number:\n"))
     n2 = int(input("Enter second number:\n"))
-    if n1>n2:
-        print("First number is greater")
-    elif n1<n2:
-        print("First number is lesser")
-    else:
-        print("Both are equal")
+    case_1 = (n1>n2)
+    case_2 = (n1<n2)
+    case_3 = (n1==n2)
+    print("First number is greater than second:",case_1)
+    print("First number is lesser than second:",case_2)
+    print("First and second numbers are equal:",case_3)
 #Task3
 else:
     num = float(input("Enter a number:\n"))
-    sq = num*num
-    cube = num*num*num
+    sq = num**2
+    cube = num**3
     print("The square is:"+str(sq)+"\n"+"The cube is:"+str(cube))
