@@ -9,9 +9,9 @@ if ip==1:
 #Task2
 else:
     print("Enter the sides of the triangle:\n")
-    s1 = int(input("First side:\n"))
-    s2 = int(input("Second side:\n"))
-    s3 = int(input("Third side:\n"))
+    s1 = float(input("First side:\n"))
+    s2 = float(input("Second side:\n"))
+    s3 = float(input("Third side:\n"))
     if s1==s2 and s1==s3:
         print("It's an equilateral triangle")
     elif s1==s2 or s2==s3 or s1==s3:
