@@ -1,11 +1,20 @@
 #Palindrome checker
-def isPalindrome():
+'''def isPalindrome():
     str = input("Enter a string to check:")
     rev = str[::-1]
     if str==rev:
         print("It's a Palindrome")
     else:
-        print("Sorry,it isn't a Palindrome")
+        print("Sorry,it isn't a Palindrome")'''
+def isPalindrome():
+    str = input("Enter a string to check:")
+    rev=''
+    for c in str:
+        rev = c+rev
+    if str == rev:
+        print("It's a palindrome")
+    else:
+        print("It's not a palindrome")
 #Factorial
 def calcFactorial(num):
     fact=1
